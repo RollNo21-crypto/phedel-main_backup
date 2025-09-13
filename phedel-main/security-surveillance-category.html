@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security & Surveillance Solutions - PHEDEL</title>
+    <meta name="description" content="Professional security and surveillance equipment including CCTV racks, security cabinets, and monitoring solutions for comprehensive protection systems.">
+    <meta name="keywords" content="security racks, surveillance cabinets, CCTV equipment, monitoring solutions, security enclosures">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+
+            // Search functionality
+            const searchButton = document.getElementById('search-button');
+            const mobileSearchButton = document.getElementById('mobile-search-button');
+            
+            function handleSearch() {
+                const query = prompt('Enter your search query:');
+                if (query) {
+                    window.location.href = `products.html?search=${encodeURIComponent(query)}`;
+                }
+            }
+            
+            if (searchButton) {
+                searchButton.addEventListener('click', handleSearch);
+            }
+            
+            if (mobileSearchButton) {
+                mobileSearchButton.addEventListener('click', handleSearch);
+            }
+        });
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <a href="index.html" class="flex items-center">
+                            <img src="images/logo.png" alt="PHEDEL Logo" class="h-8 w-auto mr-2">
+                            <span class="text-2xl font-bold text-[#3A46A5]">PHEDEL</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-[#3A46A5] px-3 py-2 rounded-md text-sm font-medium transition duration-300">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-[#3A46A5] px-3 py-2 rounded-md text-sm font-medium transition duration-300">About</a>
+                    <a href="services.html" class="text-gray-700 hover:text-[#3A46A5] px-3 py-2 rounded-md text-sm font-medium transition duration-300">Services</a>
+                    <div class="relative group">
+                        <a href="products.html" class="text-[#3A46A5] px-3 py-2 rounded-md text-sm font-medium transition duration-300 flex items-center">
+                            Products
+                            <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                        </a>
+                        <div class="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden group-hover:block z-50">
+                            <div class="py-1" role="menu" aria-orientation="vertical">
+                                <a href="data-centre-category.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Data Centre</a>
+                                <a href="telecom-category.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Telecom</a>
+                                <a href="power-it-category.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Power & IT</a>
+                                <a href="it-network-category.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">IT & Network</a>
+                                <a href="electrical-panel-category.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Electrical Panel</a>
+                                <a href="industrial-rack-category.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Industrial Rack</a>
+                                <a href="industrial-enclosure-category.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Industrial Enclosure</a>
+                                <a href="security-surveillance-category.html" class="block px-4 py-2 text-sm text-[#3A46A5] bg-gray-100" role="menuitem">Security & Surveillance</a>
+                                <a href="av-racks-category.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">AV Racks</a>
+                                <a href="accessories-category.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Accessories</a>
+                                <a href="products.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 font-medium" role="menuitem">All Products</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="text-gray-700 hover:text-[#3A46A5] px-3 py-2 rounded-md text-sm font-medium transition duration-300">Contact</a>
+                    <button id="search-button" class="text-gray-700 hover:text-[#3A46A5] px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <a href="contact.html" class="bg-[#3A46A5] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-[#2d3584] transition duration-300">Get Quote</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-[#3A46A5] focus:outline-none focus:text-[#3A46A5]">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden lg:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <button id="mobile-search-button" class="block w-full text-left px-3 py-2 text-gray-700 hover:text-[#3A46A5]">
+                    <i class="fas fa-search mr-2"></i>Search Products
+                </button>
+                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">Home</a>
+                <a href="services.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">Services</a>
+                <a href="data-centre-category.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">Data Centre</a>
+                <a href="telecom-category.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">Telecom</a>
+                <a href="power-it-category.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">Power & IT</a>
+                <a href="it-network-category.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">IT & Network</a>
+                <a href="electrical-panel-category.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">Electrical Panel</a>
+                <a href="industrial-rack-category.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">Industrial Rack</a>
+                <a href="industrial-enclosure-category.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">Industrial Enclosure</a>
+                <a href="security-surveillance-category.html" class="block px-3 py-2 text-[#3A46A5] font-medium">Security & Surveillance</a>
+                <a href="av-racks-category.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">AV Racks</a>
+                <a href="accessories-category.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">Accessories</a>
+                <a href="products.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">All Products</a>
+                <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:text-[#3A46A5]">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="bg-gray-100 py-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <nav class="flex" aria-label="Breadcrumb">
+                <ol class="inline-flex items-center space-x-1 md:space-x-3">
+                    <li class="inline-flex items-center">
+                        <a href="index.html" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-[#3A46A5]">
+                            <i class="fas fa-home mr-2"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <div class="flex items-center">
+                            <i class="fas fa-chevron-right text-gray-400 mx-2"></i>
+                            <a href="products.html" class="ml-1 text-sm font-medium text-gray-700 hover:text-[#3A46A5] md:ml-2">Products</a>
+                        </div>
+                    </li>
+                    <li aria-current="page">
+                        <div class="flex items-center">
+                            <i class="fas fa-chevron-right text-gray-400 mx-2"></i>
+                            <span class="ml-1 text-sm font-medium text-[#3A46A5] md:ml-2">Security & Surveillance</span>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-[#3A46A5] to-[#2d3584] text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Security & Surveillance Solutions</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Professional security and surveillance equipment including CCTV racks, security cabinets, and monitoring solutions for comprehensive protection systems.</p>
+            <a href="contact.html" class="bg-white text-[#3A46A5] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 inline-block">
+                Get Custom Quote
+            </a>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Security & Surveillance Products</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Comprehensive range of security equipment designed to protect your valuable assets and ensure reliable monitoring.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+                        <i class="fas fa-video text-6xl text-[#3A46A5]"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">CCTV Equipment Racks</h3>
+                        <p class="text-gray-600 mb-4">Specialized racks for CCTV systems with proper ventilation and cable management for surveillance equipment.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#3A46A5] font-semibold">Professional Grade</span>
+                            <a href="contact.html" class="bg-[#3A46A5] text-white px-4 py-2 rounded hover:bg-[#2d3584] transition duration-300">Inquire</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+                        <i class="fas fa-shield-alt text-6xl text-[#3A46A5]"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Security Cabinets</h3>
+                        <p class="text-gray-600 mb-4">Secure cabinets for protecting sensitive security equipment with advanced locking mechanisms.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#3A46A5] font-semibold">High Security</span>
+                            <a href="contact.html" class="bg-[#3A46A5] text-white px-4 py-2 rounded hover:bg-[#2d3584] transition duration-300">Inquire</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+                        <i class="fas fa-desktop text-6xl text-[#3A46A5]"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Monitoring Stations</h3>
+                        <p class="text-gray-600 mb-4">Complete monitoring station setups with ergonomic design for 24/7 surveillance operations.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#3A46A5] font-semibold">Ergonomic Design</span>
+                            <a href="contact.html" class="bg-[#3A46A5] text-white px-4 py-2 rounded hover:bg-[#2d3584] transition duration-300">Inquire</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+                        <i class="fas fa-lock text-6xl text-[#3A46A5]"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Access Control Enclosures</h3>
+                        <p class="text-gray-600 mb-4">Protective enclosures for access control systems with weather-resistant construction.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#3A46A5] font-semibold">Weather Resistant</span>
+                            <a href="contact.html" class="bg-[#3A46A5] text-white px-4 py-2 rounded hover:bg-[#2d3584] transition duration-300">Inquire</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+                        <i class="fas fa-server text-6xl text-[#3A46A5]"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">DVR/NVR Racks</h3>
+                        <p class="text-gray-600 mb-4">Specialized racks for digital video recorders and network video recorders with optimal cooling.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#3A46A5] font-semibold">Optimal Cooling</span>
+                            <a href="contact.html" class="bg-[#3A46A5] text-white px-4 py-2 rounded hover:bg-[#2d3584] transition duration-300">Inquire</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+                        <i class="fas fa-camera text-6xl text-[#3A46A5]"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Camera Mounting Solutions</h3>
+                        <p class="text-gray-600 mb-4">Professional camera mounting systems for indoor and outdoor surveillance installations.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#3A46A5] font-semibold">Versatile Mounting</span>
+                            <a href="contact.html" class="bg-[#3A46A5] text-white px-4 py-2 rounded hover:bg-[#2d3584] transition duration-300">Inquire</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Need Custom Security Solutions?</h2>
+            <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">Our security experts can design and implement comprehensive surveillance systems tailored to your specific requirements.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-[#3A46A5] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#2d3584] transition duration-300">
+                    Get Security Consultation
+                </a>
+                <a href="products.html" class="border-2 border-[#3A46A5] text-[#3A46A5] px-8 py-3 rounded-lg font-semibold hover:bg-[#3A46A5] hover:text-white transition duration-300">
+                    View All Products
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center mb-4">
+                        <img src="images/logo.png" alt="PHEDEL Logo" class="h-8 w-auto mr-2">
+                        <span class="text-2xl font-bold text-white">PHEDEL</span>
+                    </div>
+                    <p class="text-gray-300 mb-4">Leading provider of professional security and surveillance solutions, delivering reliable protection systems for businesses and organizations worldwide.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition duration-300">
+                            <i class="fab fa-linkedin-in text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-300 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-white transition duration-300">Services</a></li>
+                        <li><a href="products.html" class="text-gray-300 hover:text-white transition duration-300">Products</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Info</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>123 Business Street, City, State 12345</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-2"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>info@phedel.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-300">&copy; 2024 PHEDEL. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

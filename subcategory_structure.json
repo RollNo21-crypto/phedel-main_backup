@@ -1,0 +1,259 @@
+{
+  "Data Center": {},
+  "Telecom": {
+    "Fiber Optic Accessories": {
+      "LIUs": [
+        {
+          "name": "LIUs (high density)",
+          "datasheet": "Phedel-1Fixed Type LIU-DataSheets.pdf"
+        }
+      ],
+      "Pig tails": [
+        {
+          "name": "Pig tails",
+          "datasheet": null
+        }
+      ],
+      "FDMS 42U racks": [
+        {
+          "name": "FDMS 42U rack",
+          "datasheet": "Phedel-FDMS Rack-Datasheet.pdf"
+        }
+      ],
+      "Patch cords": [
+        {
+          "name": "Patch cord",
+          "datasheet": "FIBER  OPTIC PATCH CORD .pdf"
+        }
+      ]
+    }
+  },
+  "IT and Network Provider": {
+    "Wall Mount Racks": {
+      "Single Section": [
+        {
+          "name": "Aero Mount",
+          "datasheet": "Phedel-Aero Mount series- wallmount datasheet.pdf"
+        },
+        {
+          "name": "Aero mount Neo",
+          "datasheet": "Aero_mount_Neo.pdf"
+        },
+        {
+          "name": "Aero Mount Pro",
+          "datasheet": "Phedel_Brochure_Aeromount pro-Data sheet.pptx.pdf"
+        }
+      ],
+      "Double Section": [
+        {
+          "name": "Titan Series",
+          "datasheet": "Phedel-Titan Series-Double Section-Datasheet..pdf"
+        },
+        {
+          "name": "Titan Pro",
+          "datasheet": "Titan_Pro.pdf"
+        }
+      ]
+    }
+  },
+  "Electrical Panel": {},
+  "Industrial Enclosure": {},
+  "Security Surveillance": {},
+  "AV Racks": {},
+  "Accessories": {
+    "PDUs & Accessories": {
+      "PDU SINGLE PHASE (horizontal)": [
+        {
+          "name": "Indian Power PDU",
+          "datasheet": null
+        },
+        {
+          "name": "Universal PDU",
+          "datasheet": null
+        },
+        {
+          "name": "C13 and C14",
+          "datasheet": null
+        }
+      ],
+      "PDU SINGLE PHASE (vertical)": [
+        {
+          "name": "Indian Power PDU",
+          "datasheet": null
+        },
+        {
+          "name": "Universal PDU",
+          "datasheet": null
+        },
+        {
+          "name": "C13 and C14",
+          "datasheet": null
+        }
+      ],
+      "PHASE": [
+        {
+          "name": "Unknown Product",
+          "datasheet": null
+        }
+      ],
+      "Cable Management Horizontal": [
+        {
+          "name": "1U LOOP TYPE",
+          "datasheet": null
+        },
+        {
+          "name": "1U SHUNTING TYPE",
+          "datasheet": null
+        },
+        {
+          "name": "1U CHANNEL TYPE",
+          "datasheet": null
+        }
+      ],
+      "Cable Management Vertical": [
+        {
+          "name": "1U LOOP TYPE",
+          "datasheet": null
+        },
+        {
+          "name": "1U SHUNTING TYPE",
+          "datasheet": null
+        },
+        {
+          "name": "1U CHANNEL TYPE",
+          "datasheet": null
+        }
+      ],
+      "Fans": [
+        {
+          "name": "SINGLE FAN",
+          "datasheet": null
+        },
+        {
+          "name": "DOUBLE FAN",
+          "datasheet": null
+        },
+        {
+          "name": "4 FAN",
+          "datasheet": null
+        }
+      ],
+      "Shelves": [
+        {
+          "name": "1U CANTILIVER TRAY",
+          "datasheet": null
+        },
+        {
+          "name": "2U CANTILIVER TRAY",
+          "datasheet": null
+        },
+        {
+          "name": "600 D SHELVES",
+          "datasheet": null
+        },
+        {
+          "name": "800 D SHELVES",
+          "datasheet": null
+        },
+        {
+          "name": "1000 D SHELVES",
+          "datasheet": null
+        }
+      ],
+      "Blanking Panels": [
+        {
+          "name": "1 U TOOL LESS blanking panel",
+          "datasheet": null
+        },
+        {
+          "name": "1 U STANDARD blanking panel",
+          "datasheet": null
+        },
+        {
+          "name": "2 U STANDARD blanking panel",
+          "datasheet": null
+        },
+        {
+          "name": "3U STANDARD blanking panel",
+          "datasheet": null
+        },
+        {
+          "name": "4 U STANDARD blanking panel",
+          "datasheet": null
+        },
+        {
+          "name": "5 U STANDARD blanking panel",
+          "datasheet": null
+        },
+        {
+          "name": "6 U STANDARD blanking panel",
+          "datasheet": null
+        }
+      ],
+      "Bus Bars": [
+        {
+          "name": "19 Inch Mounting Copper Busbar",
+          "datasheet": "Phedel_Bus bar-Datasheet.pptx.pdf"
+        },
+        {
+          "name": "19 Inch Mounting Aluminum Busbar",
+          "datasheet": null
+        },
+        {
+          "name": "VERTICAL Mounting Copper Busbar",
+          "datasheet": null
+        },
+        {
+          "name": "VERTICAL Mounting Aluminium Busbar",
+          "datasheet": null
+        }
+      ],
+      "Brush Panels": [
+        {
+          "name": "1 U BRUSH PANEL",
+          "datasheet": null
+        },
+        {
+          "name": "2 U BRUSH PANEL",
+          "datasheet": null
+        },
+        {
+          "name": "TOP OR BOTTOM FROM MOUNTING BRUSH PANEL",
+          "datasheet": null
+        }
+      ],
+      "Lacing Bars": [
+        {
+          "name": "50 mm Depth 19 Inch Mount Lacing Bar",
+          "datasheet": null
+        },
+        {
+          "name": "100 mm Depth 19 Inch Mount Lacing Bar",
+          "datasheet": null
+        },
+        {
+          "name": "150 mm Depth 19 Inch Mount Lacing Bar",
+          "datasheet": null
+        },
+        {
+          "name": "200 mm Depth 19 Inch Mount Lacing Bar",
+          "datasheet": null
+        }
+      ],
+      "Earthing Cable": [
+        {
+          "name": "pack of 2",
+          "datasheet": null
+        },
+        {
+          "name": "pack of 5",
+          "datasheet": null
+        },
+        {
+          "name": "pack of 10",
+          "datasheet": null
+        }
+      ]
+    }
+  }
+}
